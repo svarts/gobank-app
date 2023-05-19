@@ -9,10 +9,28 @@
     144.39deg,
     #ffffff -278.56%,
     #6d6d6d -78.47%,
-    #11101d 91.61%
-    #0e0f17
+    #0c0d14 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --primary-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #626a9b -78.47%,
+    #12141e 91.61%
+  );
+  --hover: #0c0d1492;
+}
+
+.hover-button:hover{
+  background: linear-gradient(
+    157.81deg,
+    #a1a1b7 -43.27%,
+    #8e99c1 -21.24%,
+    #7173ae 12.19%,
+    #4e4e94 29.82%,
+    #453f9f 51.94%,
+    #11134f 90.29%
+  );
 }
 
 * {
@@ -137,8 +155,13 @@
 }
 
 .feature-card:hover {
-  background: var(--black-gradient);
+  background: var(--primary-gradient);
   box-shadow: var(--card-shadow);
+}
+
+.get-started:hover {
+  background: var(--hover);
+  z-index: 0;
 }
 
 .feedback-container .feedback-card:last-child {
