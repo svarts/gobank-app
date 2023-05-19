@@ -64,14 +64,14 @@
 }
 
 .bg-purple-gradient{
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #c1c5ff 0.89%,
-    #aab0fc 10%,
-    #989ee9 20%,
-    #6a78e6 55.12%,
-    #626be9 71.54%,
-    #675df4 100%
+  background: linear-gradient(
+    157.81deg,
+    #dedefa -43.27%,
+    #becaf5 -21.24%,
+    #9da0f0 12.19%,
+    #7d7deb 29.82%,
+    #655ce6 51.94%,
+    #3338cf 90.29%
   );
 }
 
