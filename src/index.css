@@ -19,6 +19,16 @@
     #12141e 91.61%
   );
   --hover: #0c0d1492;
+  --border: #453f9f;
+}
+
+.gobank {
+  color: #4B0082;
+}
+
+.empty-button {
+  border: var(--border);
+  border-radius: 2.5rem;
 }
 
 .hover-button:hover{
@@ -154,6 +164,12 @@
   }
 }
 
+.feature-cards {
+  background: var(--primary-gradient);
+  box-shadow: var(--card-shadow);
+  border-radius: 2.5rem;
+}
+
 .feature-card:hover {
   background: var(--primary-gradient);
   box-shadow: var(--card-shadow);
@@ -173,7 +189,7 @@
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  background: var(--primary-gradient);
 }
 
 .blue-gradient {
