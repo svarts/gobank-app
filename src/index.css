@@ -103,6 +103,15 @@
   );
 }
 
+.bg-primary-gradient{
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #626a9b -78.47%,
+    #12141e 91.61%
+);
+}
+
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
@@ -205,4 +214,8 @@
 .white-gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.client:hover {
+  color: #0c0d14;
 }
