@@ -4,4 +4,4 @@
 * React with Tailwind
 * Modern bank application interface
 
-![Alt text](/gobank.png "Optional title")
+![Alt text](/src/assets/gobank.png "Optional title")
