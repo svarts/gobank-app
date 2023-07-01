@@ -7,6 +7,7 @@ const Footer = () => (
         <div className='flex-1 flex flex-col justify-start mr-10'>
           <img src="https://ik.imagekit.io/laracasts/series/thumbnails/svg/developing-serverless-functions.svg" alt="gobank" 
           className='w-[90px] h-[90px] object-contain'/>
+          <h1 className={`font-poppins font-normal cursor-pointer text-[16px] bg-gradient-to-r from-violet-500 via-purple-600 to-blue-950 inline-block text-transparent bg-clip-text`}>GoBank</h1>
         <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>A new way to make the payments easy, reliable and secure.</p>
         </div>
         <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
