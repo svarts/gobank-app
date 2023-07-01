@@ -9,7 +9,7 @@ module.exports = {
         lightPrimary: "#313652",
         purplePrimary: "#201f3bc0",
         whitePrimary: "#40495e",
-        secondary: "#00f6ff",
+        secondary: "#4828ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         purple: "#800080",
