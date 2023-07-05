@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src="https://ik.imagekit.io/laracasts/series/thumbnails/svg/developing-serverless-functions.svg" alt='gobank' 
+      <img src="src/assets/developing-serverless-functions.svg" alt='gobank' 
       className='w-[70px]'/>
       <h1 className={`font-poppins font-normal cursor-pointer text-[16px] bg-gradient-to-r from-violet-500 via-purple-600 to-blue-950 inline-block text-transparent bg-clip-text`}>GoBank</h1>
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
