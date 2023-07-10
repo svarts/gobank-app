@@ -1,5 +1,6 @@
 # GoBank
 
+* GoBank app is a school project for web design-2
 * Fully Responsive Website with Modern UI/UX in React 
 * React with Tailwind
 * Modern bank application interface
