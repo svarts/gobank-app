@@ -26,6 +26,7 @@ import people03 from "./people03.png";
 import paypal from "./paypal.svg";
 import online from "./online.svg";
 import cards from "./cards.svg";
+import developingServerlessFunctions from "./developing-serverless-functions.svg";
 
 export {
   airbnb,
@@ -55,5 +56,6 @@ export {
   people03,
   paypal,
   online,
-  cards
+  cards,
+  developingServerlessFunctions
 };
